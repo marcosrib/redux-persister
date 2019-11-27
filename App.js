@@ -8,8 +8,9 @@ function App() {
 
   return (
     <Provider store={store}>
-      <PersistGate loading={null}  persistor={persistor} ></PersistGate>
-      <Todos />
+      <PersistGate loading={null} persistor={persistor} >
+        <Todos />
+      </PersistGate>
     </Provider>
 
   )
