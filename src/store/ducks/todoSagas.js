@@ -14,12 +14,15 @@ const INITIAL_STATE = {
 
 
 const listTodo = (state = INITIAL_STATE, action) => {
-     console.warn( state);
-     
-    return {
+    console.warn(state);
+    
+    return [
         ...state,
-         todos: action.text
-    }
+        {
+            ite: action.text, nome: action.text
+
+        }
+    ]
 }
 
 function* addTodoSaga(action) {

@@ -8,7 +8,7 @@ import { Creators as actionsCreators } from '../src/store/ducks/todoSagas'
 export default function Todos(props) {
     const dispatch = useDispatch();
     const todo = useSelector(state => state.todoSagas)
-    console.warn(todo.todos);
+  
 
     function add() {
         const array ={
@@ -25,7 +25,7 @@ export default function Todos(props) {
     return (
         <View style={{ flex: 1, backgroundColor: 'red' }}>
             <Button title="add" onPress={add} />
-            <Text>loo</Text>
+            <Text>{todo.todos}</Text>
         </View>
 
     )
