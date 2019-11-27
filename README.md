@@ -1,14 +1,6 @@
 # redux-persister
 
-## Índece
-
-* Utilizados no projeto
-  * [Introdução](#Introdução)
-  * [Bibliotecas](#Bibliotecas)
-
-## Introdução
-
-Aplicação para gerenciamento de corridas, onde o backend foi desenvolvido em nodejs.
+Persistindo dados no realm db utilizando o redux persist.
 
 ## Utilizados no projeto
 
