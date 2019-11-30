@@ -8,5 +8,6 @@ Persistindo dados no realm db utilizando o redux persist.
 * [redux](https://redux.js.org/introduction/installation)
 * [redux-saga](https://redux-saga.js.org/docs/introduction/BeginnerTutorial.html)
 * [reduxsauce](https://www.npmjs.com/package/reduxsauce)    
+* [redux-persist](https://www.npmjs.com/package/redux-persist)  
 
 
